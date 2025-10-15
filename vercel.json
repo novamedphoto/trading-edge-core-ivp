@@ -1,0 +1,7 @@
+{
+  "functions": { "api/*.ts": { "runtime": "nodejs20.x" } },
+  "routes": [
+    { "src": "/api/signal", "dest": "api/handlers/signal.ts" },
+    { "src": "/api/health", "dest": "api/handlers/health.ts" }
+  ]
+}
